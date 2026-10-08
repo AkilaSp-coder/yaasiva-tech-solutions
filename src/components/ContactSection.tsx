@@ -424,16 +424,18 @@ try {
                 {/* Budget Range Selector */}
                 <div>
                   <label className="block text-xs font-medium text-slate-300 mb-2">
-                    Estimated Budget Allocation
+                    Estimated Project Budget
                   </label>
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                     {[
-  '$3k – $5k',
-  '$5k – $10k',
-  '$10k – $25k',
-  '$25k – $50k',
-  '$50k – $100k',
-  '$100k+'
+  
+  '₹3,000 – ₹5,000',
+  '₹5,000 – ₹10,000',
+  '₹10,000 – ₹25,000',
+  '₹25,000 – ₹50,000',
+  '₹50,000 – ₹1,00,000',
+  '₹1,00,000+'
+
 ].map((range) => (
                       <button
                         type="button"
